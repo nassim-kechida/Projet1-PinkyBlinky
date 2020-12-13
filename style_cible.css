@@ -1,0 +1,14 @@
+/*Les styles CSS pour la page cible.php*/
+@font-face {
+    font-family: 'BDCartoonShoutRegular';
+    src: url('BD_Cartoon_Shout-webfont.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+h2{
+    font-family: 'BDCartoonShoutRegular';
+	color: yellow;
+}
+

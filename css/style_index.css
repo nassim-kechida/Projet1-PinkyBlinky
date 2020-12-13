@@ -1,0 +1,52 @@
+/* les style css pour la page index.php */
+@font-face {
+  font-family: 'BDCartoonShoutRegular';
+  src: url('../BD_Cartoon_Shout-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.tram {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    margin-top: 0px;
+}
+
+.blocs {
+	border: 5px solid #5B5DFF;
+	width: 80%;
+	padding: 20px;
+	margin: 40px;
+	border-radius: 30px;
+}
+
+.blocs:nth-child(even) {
+	align-self: flex-end;
+}
+
+.anime {
+	width: 35%;
+}
+
+.bouton1 {
+	align-self: flex-end;
+	border-radius: 8px;
+}
+
+a.bouton1 {
+	padding: 10px 30px;
+	background: #5B5DFF;
+	color: Black;
+    float: right;
+}
+
+a.bouton1:hover {
+	background: #FF69CE;
+    color: yellow;
+}
+
+p, h2, li {
+    font-family: 'BDCartoonShoutRegular';
+	color: yellow;
+}

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'CrackMan';
+    src: url('../crackman.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'BDCartoonShoutRegular';
+    src: url('../BD_Cartoon_Shout-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .ecran {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    margin-top: 0px;
+}
+
+.blok {
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-bottom: 250px;
+    color: yellow;
+}
+
+.blok:nth-child(even) {
+    align-self: flex-end;
+}
+
+.Pac{
+	
+	width: 80%;
+	padding: 20px;
+	margin: 40px;
+    border-radius: 30px;
+    font-family: 'BDCartoonShoutRegular';
+}
+
+.Pac {
+    border: 5px solid #5B5DFF;
+}
+
+.Presentation{
+    color: white;
+    display: block;
+    flex-direction:row-reverse;
+    font-family: 'BDCartoonShoutRegular';;
+    font-size: "2,5em";
+    float:left;
+}
+
+
+.Presentation li{
+    display: block;
+    width: 45%;
+    justify-content: left;
+    font-family: 'BDCartoonShoutRegular';
+    color: yellow;
+    float: left;
+    padding-bottom: 15px;
+ 
+    /*Centrer l'image verticalement*/
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+.titre1{
+    display: flex;
+    flex-direction: row;
+    font-family:"blueviolet";
+    font-family: 'CrackMan';
+    text-align: center;
+    margin: 30px;
+    font: size 100%; 
+    text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
+    color:#FF69CE;
+}
+.Blinky{
+    float: left;
+    
+}
+.P0{
+    float: left;
+    font-size: 1,5em;
+}
+
+.Inky{
+    float: right;
+}
+.P1{
+    float: right;
+    font-size: 1,5em;
+}
+.Clyde{
+    float: right;
+}
+
+
+.Pinky{
+    float: left;
+}
+.P3{
+    float: right;
+    font-size: 1,5em;
+}
+
+
+.bouton1 {
+	align-self: flex-end;
+    border-radius: 8px;
+    float: right;
+}
+a.bouton1 {
+	padding: 10px 30px;
+	background: #5B5DFF;
+	color: Black;
+}
+
+a.bouton1:hover {
+	background: pink;
+}
+
+.titre1{
+    color:pink;
+    font-size: 40px;
+    align-content: flex-start;
+}

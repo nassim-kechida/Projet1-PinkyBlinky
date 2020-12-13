@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'BDCartoonShoutRegular';
+    src: url('../BD_Cartoon_Shout-webfont.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p , h2{
+    font-family: 'BDCartoonShoutRegular';
+	color: yellow;
+}
+
+h2, input, textarea {
+    font-size: 1.5em;
+}
+
+/*input, textarea {
+    font-family: inherit;
+}*/
+
+form
+{
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 250px;
+}   
+.panneau{
+    padding: 10px;
+    background-color: blue;
+    border-radius: 6px;
+    border: 2px solid blue;
+    text-align: center;
+}

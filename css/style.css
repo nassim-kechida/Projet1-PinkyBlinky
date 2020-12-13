@@ -1,0 +1,115 @@
+body {
+	background-image: url('../img/pacman-background.jpg');
+    background-attachment: fixed;
+	color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.hautFixe {
+   position: fixed;
+   top: 0;
+   height: 40px;
+   width: 100%;
+   border: 0;
+   background-image: url('../img/pacman-background.jpg');
+}
+
+.ecran {
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/fondEcran.png');
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-bottom: 250px;
+    padding-top: 40px;
+}
+
+@font-face {
+    font-family: 'CrackMan';
+    src: url('../crackman.ttf') format('truetype');
+}
+
+h1 {
+	font-family: 'CrackMan';
+	color: #FF69CE;
+  text-align: center;
+	vertical-align: middle;
+	font-size: 4em;
+	text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
+}
+
+nav {
+  margin: 0px;
+}
+
+.pinkyNav{
+	width: 50px;
+}
+
+#navmobile {
+    display: none;
+}
+
+nav ul {
+  display: flex;
+  width: 86%;
+}
+
+nav li {
+  font-family: 'CrackMan';
+	text-shadow: 1px 1px 2px yellow, 0 0 0.5em blue, 0 0 0.2em yellow;
+  list-style-type: none;
+	font-size: 2em;
+  padding: 15px;
+    text-align: center;
+}
+
+nav a {
+  color: yellow;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #FF69CE;
+    text-align: center;
+}
+
+footer {
+   position: fixed;
+   bottom:0;
+   left: 7%;
+   height: 225px;
+   width: 86%;
+   border: 0;
+   background-size: 100%;
+   background-image: url('../img/clavierArcade3.png');
+   background-position: bottom;
+   background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width: 1024px){
+    
+    #navigation {
+        display: none;
+    }
+
+    #navmobile {
+        display: flex;
+        text-align: center;
+    }
+
+    #navmobile ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 86%;
+    }
+}
